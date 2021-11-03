@@ -52,7 +52,7 @@
         android:id="@+id/plane2"
         android:layout_width="135dp"
         android:layout_height="135dp"
-        android:layout_marginStart="35dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="175dp"
         android:layout_toEndOf="@id/plane1"
         app:srcCompat="@drawable/helicopter" />
@@ -63,7 +63,7 @@
         android:layout_height="135dp"
         android:layout_below="@id/plane2"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="40dp"
         app:srcCompat="@drawable/seaplane" />
 
     <ImageView
@@ -71,8 +71,8 @@
         android:layout_width="135dp"
         android:layout_height="135dp"
         android:layout_below="@id/plane2"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
         android:layout_toEndOf="@id/plane3"
         app:srcCompat="@drawable/jet" />
 </RelativeLayout>
