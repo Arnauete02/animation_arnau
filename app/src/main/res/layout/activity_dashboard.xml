@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo_d"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/radar"
+        android:transitionName="logo_origen"/>
+
+    <TextView
+        android:id="@+id/title_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/title_d"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subtitle_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_d"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bitter_bold"
+        android:text="@string/subtitle_d"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/plane1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="175dp"
+        app:srcCompat="@drawable/biplane" />
+
+    <ImageView
+        android:id="@+id/plane2"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="175dp"
+        android:layout_toEndOf="@id/plane1"
+        app:srcCompat="@drawable/helicopter" />
+
+    <ImageView
+        android:id="@+id/plane3"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/plane2"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/seaplane" />
+
+    <ImageView
+        android:id="@+id/plane4"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/plane2"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@id/plane3"
+        app:srcCompat="@drawable/jet" />
+</RelativeLayout>
