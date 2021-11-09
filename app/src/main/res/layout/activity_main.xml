@@ -14,8 +14,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:srcCompat="@drawable/radar"
-        android:transitionName="logo_origen"/>
+        android:transitionName="logo_origen"
+        app:srcCompat="@drawable/radar" />
 
     <TextView
         android:id="@+id/title1"

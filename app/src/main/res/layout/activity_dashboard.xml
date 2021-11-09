@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_wave_100s_1440px">
 
     <ImageView
         android:id="@+id/logo_d"
@@ -14,8 +15,8 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/radar"
-        android:transitionName="logo_origen"/>
+        android:transitionName="logo_origen"
+        app:srcCompat="@drawable/radar" />
 
     <TextView
         android:id="@+id/title_d"
